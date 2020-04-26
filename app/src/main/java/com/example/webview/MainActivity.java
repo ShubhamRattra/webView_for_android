@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setAllowFileAccess(true);
         webSettings.setBuiltInZoomControls(false);
 
+
         mywebView.clearFormData();
         mywebView.clearHistory();
         mywebView.clearCache(true);
@@ -38,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
         mywebView.getSettings().setLoadWithOverviewMode(true);
         mywebView.getSettings().setUseWideViewPort(true);
 
-
         webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+
 
         mywebView.loadUrl("http://192.168.29.146/parents/V_T_school_messagelist.php");
 
         //  mywebView.loadUrl("http://ekjot.ddns.net:81/parents/");
-        
+
         // Line of Code for opening links in app
 
         mywebView.setWebViewClient(new WebViewClient());
