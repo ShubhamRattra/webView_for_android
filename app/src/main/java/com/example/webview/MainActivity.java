@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
 
 
-        mywebView.loadUrl("http://192.168.29.146/parents/V_T_school_messagelist.php");
+        mywebView.loadUrl("http://epsmohali.in/parents_info");
 
         //  mywebView.loadUrl("http://ekjot.ddns.net:81/parents/");
 
