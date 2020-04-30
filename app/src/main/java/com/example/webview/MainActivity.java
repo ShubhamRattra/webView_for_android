@@ -42,10 +42,8 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
 
 
-        mywebView.loadUrl("http://epsmohali.in/parents_info");
-
-        //  mywebView.loadUrl("http://ekjot.ddns.net:81/parents/");
-
+        mywebView.loadUrl("https://www.google.com/?gws_rd=ssl");
+        
         // Line of Code for opening links in app
 
         mywebView.setWebViewClient(new WebViewClient());
